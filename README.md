@@ -21,13 +21,12 @@ Used APIs:
 **2. Analysis and visualization**
 * Plot various weather conditions against latitude data in a series of scatter plots using the whole data sets. For exmaple:
 
-![Plot](WeatherPy/Images/MaxTemp_Lat.png)
+![MaxTemp vs Latitude in whole data set](WeatherPy/Images/MaxTemp_Lat.png)
 
 * Repeat the scatter plots and add linear regressions using the Northern and Southern hemisphere data sets. For example:
 
-![Plot](WeatherPy/Images/MaxTemp_Lat_N.png)
-
-![Plot](WeatherPy/Images/MaxTemp_Lat_S.png)
+![MaxTemp vs Latitude in N. hemisphere](WeatherPy/Images/MaxTemp_Lat_N.png)
+![MaxTemp vs Latitude in S. hemisphere](WeatherPy/Images/MaxTemp_Lat_S.png)
 
 **3. Final Observations**
 
@@ -43,4 +42,15 @@ Used APIs:
     * Maximum temperature is between 70F and 85F
     * Cloudiness is less than or equals to 40%
     * Located in Australian
-* 
+* Perform Google Places API calls to search for the nearest hotel to the vacation spots
+* Use `.iterrows()` to make sure a search is performed on each of the 5 cities and store hotel names to dataframe:
+![Hotels in ideal cities](VacationPy/Images/Ideal_cities_hotels.png)
+
+* Use `info_box_template` to store hotel name, city and country information to be plotted on Google Map
+
+**2. Visualization**
+* Add heatmap layer to Google Map
+![Humidity map](VacationPy/Images/Humidity_heatmap.png)
+
+* Add marker layer to Google Map
+![Hotels map](VacationPy/Images/Hotels_ideal_cities.png)
