@@ -19,7 +19,7 @@ Used APIs:
 * Split data into Northern and Southern hemispheres
 
 **2. Analysis and visualization**
-* Plot various weather conditions against latitude data in a series of scatter plots using the whole data sets. For exmaple:
+* Plot various weather conditions against latitude data in a series of scatter plots using the whole data set. For exmaple:
 
 ![MaxTemp vs Latitude in whole data set](WeatherPy/Images/MaxTemp_Lat.png)
 
