@@ -45,7 +45,7 @@ Used APIs:
 * Perform Google Places API calls to search for the nearest hotel to the vacation spots
 * Use `.iterrows()` to make sure a search is performed on each of the 5 cities and store hotel names to dataframe:
 
-![Hotels in ideal cities](VacationPy/Images/Ideal_cities_hotels.png)
+![Hotels in ideal cities](VacationPy/Images/Ideal_cities_hotels.PNG)
 
 * Use `info_box_template` to store hotel name, city and country information to be plotted on Google Map
 
